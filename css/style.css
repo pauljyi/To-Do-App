@@ -1,0 +1,108 @@
+@font-face {
+  font-family: ailerons;
+  src: url(../fonts/ailerons.ttf);
+}
+
+#header {
+  font-size: 5em;
+  text-align: center;
+  font-family: ailerons;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  margin:auto;
+
+  }
+
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+  /*width: auto;
+  text-align: center;*/
+}
+
+#form {
+  width: auto;
+  height: 200px;
+  padding: 0 0 25px 0;
+  margin: 80px -10px 0 -10px;
+  text-align: center;
+}
+
+#body{
+  height:auto;
+  width: auto;
+}
+.image {
+  width:40%;
+  position: absolute;
+  margin:auto;
+}
+
+.text {
+  margin-top: 10px;
+  width: auto;
+  text-align: center;
+  }
+
+.colors {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 7px;
+  color: black;
+  margin-bottom: 15px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 20px;
+  font-family: ailerons;
+}
+
+img {
+  height: 19%;
+  width: auto;
+  visibility: visible;
+}
+
+audio {
+  display: none;
+}
+
+table {
+
+  width: auto;
+  height: auto;
+  margin: auto;
+
+}
+
+.button {
+   /*border-top: 1px solid #abc6d6;*/
+   background: #fcfcfc;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fcfcfc));
+   background: -webkit-linear-gradient(top, #ffffff, #fcfcfc);
+   background: -moz-linear-gradient(top, #ffffff, #fcfcfc);
+   background: -ms-linear-gradient(top, #ffffff, #fcfcfc);
+   background: -o-linear-gradient(top, #ffffff, #fcfcfc);
+   padding: 0 2.5px 4px 2.5px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 15px;
+   font-family: ailerons, Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #000000;
+   background: #000000;
+   color: #ffffff;
+   }
+   .button:focus{ outline:0;
+   }
+.button:active {
+   border-top-color: #ffffff;
+   background: #ffffff;
+   }
